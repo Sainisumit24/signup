@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(194, 239, 239);
+}
+#first{
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    height: 340px;
+    width: 300px;
+    margin:120px auto;
+    padding:50px;
+    padding-top: 10px;
+    box-shadow: 10px 10px 5px;
+    text-align: center;
+
+} 
+h2{
+    font-size:30px;
+    font-family:cursive;
+}
+.aa{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 15px;
+}
+.aa i{
+    margin-right: 10px;
+}
+input[type="username"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="file"] {
+    width: 90%; 
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;}
+input[type="submit"] {
+    width: 50%;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 15px;
+
+}
+input[type="submit"]:hover {
+    background-color: royalblue;
+}
